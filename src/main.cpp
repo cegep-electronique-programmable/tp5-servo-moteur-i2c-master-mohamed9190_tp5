@@ -1,8 +1,8 @@
 #include <mbed.h>
-
+// code du master 
 #define ADDRESSE_I2C_PAR_DEFAUT 0x23
 
-I2C i2c(I2C_SDA, I2C_SCL);
+I2C i2c(I2C_SDA, I2C_SCL);   // I2C_SCL2 = P0_11, I2C_SDA2 = P0_10, // pin used by application board
 
 int main() {
 
